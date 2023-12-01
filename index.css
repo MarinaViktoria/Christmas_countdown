@@ -1,0 +1,100 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1482330454287-3cf6611d0bc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fGNocmlzdG1hc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    min-height: 100vh;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    min-height: 100vh;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    color: #009EFF;
+    background-color: rgba(251, 248, 249, 0.9);
+    padding: 15px;
+    border: 1px solid #009EFF;
+    border-radius: 50px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.christmas {
+    background-color: rgba(251, 248, 249, 0.82); 
+    height: 200px;
+    width: 160px;
+    margin-top: 50px;
+    border: 2px solid #009EFF;
+    border-radius: 40px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    color: #009EFF;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.days, .hours, .minutes, .seconds {
+    color: #009EFF;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 0px;
+}
+.blue {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    color: #009EFF;
+    border: none;
+    
+}
+button {
+    margin-left: 100px;
+    border: none;
+    border-radius: 40px;
+}
+
+@media all and (max-width: 800px) {
+    
+    h1 {
+        font-size: 40px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .christmas { 
+        height: 150px;
+        width: 120px;
+        margin: 10px;
+    }
+    .days, .hours, .minutes, .seconds {
+        font-size: 30px;
+    }
+}
+
+
